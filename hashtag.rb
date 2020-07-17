@@ -17,20 +17,14 @@ require "pry"
 def generateHashtag(str)
   words = str.split(" ")
   return false unless words[0]
+  
   hash_str = []
-
-  words.each do |word|
-    hash_str << word.capitalize
-  end
+  words.each { |word| hash_str << word.capitalize }
 
   hashtag = "#" + hash_str.join("")
 
-  if hashtag.length > 140
-    return false
-  else
-    hashtag
-  end
-  
+  hashtag.length > 140 ? false : hashtag
+
 end
 
 binding.pry
