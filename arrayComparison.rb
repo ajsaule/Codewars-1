@@ -29,11 +29,10 @@ def comp(array1, array2)
   
   array1.each_with_index { |value, index|
     if array1[index]**2 != array2[index]
-      p array1[index]
       return false
     end
   }
-  # true
+  true
 end
 
 puts comp( [121, 144, 19, 161, 19, 144, 19, 11], [11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19])
