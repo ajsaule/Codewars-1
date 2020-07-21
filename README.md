@@ -6,6 +6,7 @@ Currently practicing: JavaScript, Ruby
   
   
 ## Recently completed
+* RGB to Hex *(JavaScript)*
 * Are they the "same"? *(Ruby)*
 * Number of People in the Bus *(Ruby)*
 * Growth of a Population *(JavaScript)*
