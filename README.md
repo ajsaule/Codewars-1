@@ -6,6 +6,7 @@ Currently practicing: JavaScript, Ruby
   
   
 ## Recently completed
+* How many cakes can he bake? *(Ruby)*
 * Break camelCase *(Ruby)*
 * RGB to Hex *(JavaScript)*
 * Are they the "same"? *(Ruby)*
